@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureStore 2026 | Minimalist Tech</title>
+    <link rel="stylesheet" href="style18.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">CORE<span>TECH</span></div>
+            <div class="search-bar">
+                <i class="ph ph-magnifying-glass"></i>
+                <input type="text" id="search-input" placeholder="Search gear...">
+            </div>
+            <button id="cart-btn" class="cart-trigger">
+                <i class="ph ph-shopping-cart-simple"></i>
+                <span id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="shop-header">
+            <h1>Premium Collection</h1>
+            <p>Engineered for performance. Designed for you.</p>
+        </section>
+
+        <div id="product-grid" class="product-grid">
+            </div>
+    </main>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-top">
+            <h2>Your Cart</h2>
+            <button id="close-cart"><i class="ph ph-x"></i></button>
+        </div>
+        <div id="cart-items-container" class="cart-body">
+            </div>
+        <div class="cart-footer">
+            <div class="total-box">
+                <span>Subtotal</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <button class="checkout-btn">Checkout Now</button>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <script src="script18.js"></script>
+</body>
+</html>
